@@ -1,3 +1,6 @@
+/dist
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -70,9 +73,9 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
-.env.production
+# .env
+# .env.test
+# .env.production
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -116,3 +119,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
