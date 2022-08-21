@@ -1,8 +1,4 @@
-# template
-
-- **template of:** vite + vue + typescript
-- **tailwindcss:** v3.x
-
+# 啟動專案
 ## Started
 ```bash
 yarn
