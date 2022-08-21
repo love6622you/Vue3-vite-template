@@ -1,0 +1,9 @@
+@import './tailwind/index.css';
+html,
+body {
+  min-width: 1200px;
+  height: 100%;
+  background-color: white;
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+}

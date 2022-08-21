@@ -1,11 +1,3 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-defineProps<{ msg: string }>()
-
-const count = ref(0)
-</script>
-
 <template>
   <h1
     class="bg-gradient-to-r from-green-600 to-sky-400 bg-clip-text text-5xl font-black text-transparent selection:bg-transparent"
@@ -54,11 +46,16 @@ const count = ref(0)
   >
     count is: {{ count }}
   </button>
-  <p>
-    Edit
-    <code class="text-gray-400">components/HelloWorld.vue</code> to test hot
-    module replacement.
-  </p>
 </template>
 
-<style scoped></style>
+<script lang="ts">
+import { ref } from 'vue'
+export default {
+  setup() {
+    const count = ref(0)
+    return { count }
+  }
+}
+</script>
+
+<style scoped lang="scss"></style>
